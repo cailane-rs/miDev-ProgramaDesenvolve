@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="reset.css">-->
+    <link rel="stylesheet" href="style.css">
+    <title>miDev</title>
+</head>
+
+<body>
+    <header>
+        <div class="centraliza-cabecalho">
+            <img src="logo.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="lista-presentes.html">Lista de Presentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="centraliza-sobre">
+            <h1>miDev - Lista de Presentes</h1>
+            <h3>Feita para sua transição de carreira ;)</h3>
+
+            <p>Entrar para o mundo da programação já é bom por si só, mas nada melhor que entrar com o pé direto, ou
+                melhor, com o setup direito!</p>
+            <p>Um bom conjunto de computador, teclado e mouse, entre outros periféricos, pode melhorar seu desempenho
+                na hora de codar, além de deixar seu ambiente de estudos muito irado!</p>
+            <p>Crie sua lista de presentes com os periféricos de sua escolha e compartilhe com seus amigos e familiares!
+            </p>
+        </div>
+
+        <img src="perifericos.png" class="perifericos">
+
+        <form>
+            <ul class="servicos">
+                <li>
+                    <h2>Anfitrião (Dev)</h2>
+                    <label for="nome-lista">Crie sua lista de presentes aqui!</label>
+                    <input type="text" id="nome-lista" class="input-padrao" required  placeholder="ex: Dev-Cailane-Rodrigues">
+                    <input type="button" value="Criar lista" class="input-padrao">
+                </li>
+                <li>
+                    <h2>Convidado</h2>
+                    <label for="codigo-dev">Encontre a lista do programador sortudo!</label>
+                    <input type="text" id="codigo-dev" class="input-padrao" required placeholder="6 digitos numéricos">
+                    <input type="button" value="Acessar lista" class="input-padrao">
+                </li>
+            </ul>
+        </form>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+</html>

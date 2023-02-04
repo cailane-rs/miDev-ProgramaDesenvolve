@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;1,200&display=swap');
+
+body {
+    background-color: #ddf5f4;
+}
+
+header {
+    background: #0d1122;
+    padding: 20px 0;
+}
+
+.centralizar {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 35px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #ddf5f4;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    margin: 0 10%;
+}
+
+.centraliza-sobre {
+    position: relative;
+    width: 940px;
+    margin: 70px auto;
+}
+
+main h1, h3, p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main h1 {
+    font-size: 60px;
+}
+
+main h3 {
+    font-size: 25px;
+    color: #66ce91;
+}
+
+.perifericos {
+    max-width: 60%;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 0 0 0 20%;
+}
+
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+}
+
+.servicos li {
+    display: inline-block; /*orienta os elementos pela linha debaixo, coloca um ao lado do outro*/
+    text-align: center;
+    width: 40%;
+    vertical-align: top; /*orienta os elementos pela linha de cima*/
+    margin: 5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /*color width style*/
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul h2, label, input {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 10px 100px;
+}
+
+/*Lista de presentes*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.presentes li {
+    display: inline-block; /*orienta os elementos pela linha debaixo, coloca um ao lado do outro*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*orienta os elementos pela linha de cima*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /*color width style*/
+    border-radius: 10px;
+}
+
+.tamanho-imagem {
+    width: 40%;
+    height: 40%;
+}
+
+.borda {
+    box-sizing: border-box;
+    border: 2px solid #000000; /*color width style*/
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/*Footer*/
+footer {
+    background: #0d1122;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #66ce91;
+    font-size: 13px;
+    margin-top: 20px;
+}
